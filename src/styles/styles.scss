@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+// ant dsign
+[ant-click-animating-without-extra-node="true"]::after {
+  display: none;
+}
+
+.ant-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem 1rem 1.8rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  color: #ffffff !important;
+  background: #07387c !important;
+  transition: all 0.4s;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border: 1px solid transparent !important;
+    background: #07387c !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: inherit;
+  }
+}
+
+.yellow-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem 1rem 1.8rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  color: #07387c !important;
+  background: #f1c34c !important;
+  transition: all 0.4s;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border: 1px solid transparent !important;
+    background: #f1c34c !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: inherit;
+  }
+}
+
+.white-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem 1rem 1.8rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  color: #07387c !important;
+  background: #ffffff !important;
+  transition: all 0.4s;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border: 1px solid #d9d9d9 !important;
+    background: #ffffff !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: inherit;
+  }
+}
+
+.yellow-skel {
+  border: 2px solid #f1c34c !important;
+  color: #07387c !important;
+  background: #ffffff !important;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border: 2px solid #f1c34c !important;
+    background: #ffffff !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #07387c;
+  }
+}
+
+.ant-form-item-label {
+  padding: 0 !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.ant-form-item-explain-error {
+  color: #f5222d;
+  font-size: 14px;
+}
+
+.ant-form-item-label {
+  color: #98a3be;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 0.5rem;
+}
+
+.ant-input {
+  width: 100% !important;
+  height: 2.8rem;
+  border-radius: 8px !important;
+  border-color: #eff2f8 !important;
+  box-shadow: none !important;
+  padding: 1rem;
+  background: #eff2f8 !important;
+  font-size: 14px;
+  line-height: 23px;
+  color: #0e1015;
+  outline: none !important;
+  box-shadow: none !important;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-radius: 8px;
+    border-color: #eff2f8 !important;
+    box-shadow: none !important;
+    color: #0e1015;
+    outline: none !important;
+    box-shadow: none !important;
+    background: #eff2f8 !important;
+  }
+}
+
+.input-addon {
+  .ant-input-group-addon {
+    background: unset !important;
+    border-color: unset !important;
+    border-radius: unset !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .ant-input {
+    background: unset !important;
+    border-color: unset !important;
+    height: 100% !important;
+    border-radius: unset !important;
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+}
+
+.input-select {
+  .ant-select {
+    flex-grow: 1;
+    min-height: 100%;
+    padding: 0rem;
+  }
+}
+
+.ant-form-item-control-input-content {
+  margin-bottom: 0.3rem;
+
+  span.ant-input-password.ant-input-affix-wrapper.book-password {
+    background: #eff2f8 !important;
+    border-color: #eff2f8 !important;
+
+    input {
+      background: #eff2f8 !important;
+    }
+  }
+
+  span.ant-input-password.ant-input-affix-wrapper,
+  .ant-input-affix-wrapper {
+    height: 2.8rem;
+    border-radius: 8px;
+    border-color: #eff2f8 !important;
+    box-shadow: none !important;
+    background: #eff2f8 !important;
+
+    .ant-input-suffix,
+    .ant-input-prefix {
+      margin: 0.8rem 1rem;
+      font-size: 1.2rem;
+    }
+
+    .ant-input {
+      height: 100%;
+      border-radius: 8px;
+      border-color: #eff2f8 !important;
+      box-shadow: none !important;
+
+      &:hover,
+      &:focus,
+      &:active {
+        border-color: #eff2f8 !important;
+        box-shadow: none !important;
+      }
+    }
+  }
+}
+
+.ant-input-password {
+  position: relative;
+
+  .ant-input-suffix {
+    position: absolute;
+    right: 1rem;
+    bottom: 0rem;
+  }
+}
+
+.ant-form-item {
+  margin-bottom: 1rem;
+
+  &.ant-form-item-has-error {
+    margin-bottom: 2rem;
+  }
+}
+
+.ant-btn-loading-icon {
+  margin-right: 0.5rem;
+  margin-top: -0.1rem;
+}
+
+.ant-radio-group.choose-payment-type {
+  width: 100%;
+
+  .ant-radio-wrapper {
+    position: relative;
+    width: 100%;
+
+    span.ant-radio {
+      position: absolute;
+      top: 1rem;
+      right: 1.5rem;
+      width: 1rem;
+    }
+
+    span {
+      &:last-child {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.ant-upload-list-item-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// .ant-upload.ant-upload-select {
+//   width: 100% !important;
+//   height: 10rem !important;
+
+//   img {
+//     width: 100%;
+//     height: 100%;
+//     object-fit: contain;
+//   }
+// }
+
+.businesslogo {
+  .ant-upload {
+    width: 100% !important;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
