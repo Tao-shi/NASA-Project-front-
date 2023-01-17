@@ -1,2 +1,2 @@
 /node_modules
-/utils/appdetails.ts
+src/utils/appdetails.ts
